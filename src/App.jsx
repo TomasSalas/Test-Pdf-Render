@@ -20,7 +20,7 @@ import { Planificar } from './Pages/Moderador/Planificar'
 import { VerPlanificacion } from './Pages/Moderador/VerPlanificacion'
 import { AuditoriaInstrumentos } from './Pages/Instrumentos/AuditoriaInstrumentos'
 import { Rendir } from './Pages/Candidato/Rendir'
-// import { Informe } from './Pages/Candidato/Informe'
+import { Informe } from './Pages/Candidato/Informe'
 
 export const App = () => {
   const theme = createTheme({
@@ -53,7 +53,7 @@ export const App = () => {
           <Route path='/planificar' element={<Planificar />} />
           <Route path='/ver-planificacion' element={<VerPlanificacion />} />
           <Route path='/rendir' element={<Rendir />} />
-          {/* <Route path='/informe' element={<Informe />} /> */}
+          <Route path='/informe' element={<Informe />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
