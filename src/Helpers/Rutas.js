@@ -1,0 +1,5 @@
+export const UrlBase = 'https://dev-portal-evaluacion-ley-karin-api.azurewebsites.net/api/login/'
+export const UrlBaseInstrumentos = 'https://dev-portal-evaluacion-ley-karin-api.azurewebsites.net/api/instrumento/'
+export const UrlBaseComercial = 'https://dev-portal-evaluacion-ley-karin-api.azurewebsites.net/api/comercial/'
+export const UrlModerador = 'https://dev-portal-evaluacion-ley-karin-api.azurewebsites.net/api/moderador/'
+export const UrlUsuario = 'https://dev-portal-evaluacion-ley-karin-api.azurewebsites.net/api/Usuario/'
